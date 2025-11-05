@@ -25,12 +25,12 @@ SECRET_KEY = 'django-insecure-eoqzmxwrkxp3b+z)2e(o0sw8vx$xous4@kxz9p4qch@az9g7w6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['18.61.46.143','www.traders-bphc.site','127.0.0.1','traders-bphc.site','tradersbphc.com','www.tradersbphc.com']
+ALLOWED_HOSTS = ['tradersbphc.onrender.com', 'localhost', '127.0.0.1']
 
-SECURE_SSL_REDIRECT = True
-SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO','https')
-CSRF_COOKIE_SECURE = True
-SESSION_COOKIE_SECURE = True
+#SECURE_SSL_REDIRECT = True
+#SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO','https')
+#CSRF_COOKIE_SECURE = True
+#SESSION_COOKIE_SECURE = True
 
 
 # Application definition
@@ -159,5 +159,3 @@ AUTHENTICATION_BACKENDS = (
 )
 
 SOCIALACCOUNT_LOGIN_ON_GET = True
-
-
